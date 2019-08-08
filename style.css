@@ -1,0 +1,15 @@
+section {
+	border: 1px solid black;
+	width: 500px;
+	height: 100px;
+	overflow: scroll;
+}
+
+#div1, #div2 {
+	float: left;
+	width: 210px;
+	height: 210px;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid black;
+}

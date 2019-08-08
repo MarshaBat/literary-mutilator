@@ -4,14 +4,8 @@
 		<meta charset="utf-8">
 		<title>Literary-Mutilator (Javascript Challenge)</title>
 		<script src="script.js"></script>
-		<style>
-			div {
-				border: 1px solid black;
-				width: 500px;
-				height: 100px;
-				overflow: scroll;
-			}
-		</style>
+		<link rel="stylesheet" href="style.css"/>
+
 
 		<!-- Assignment at this link: https://bootcamp-coders.cnm.edu/class-materials/javascript/events/assignment.php -->
 
@@ -32,13 +26,24 @@
 			est mollis convallis. Mauris mi risus, tincidunt eget odio eu, sagittis luctus est.</p></mark>
 		<button type="button" onclick="changeFont()">Set font color</button>
 
-	<div onscroll="scroll()" id="box">
+	<section onscroll="scroll()" id="box">
 		<p class="p3">Vivamus luctus nisi consequat leo gravida, in vehicula libero feugiat. Duis arcu ligula, convallis vitae ex
 			sed, pulvinar accumsan sapien. Etiam facilisis diam nec nulla dapibus sollicitudin. Vestibulum at libero eu
 			nisl aliquam lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 			Maecenas a tincidunt augue. Pellentesque euismod consequat orci et lobortis. Sed aliquet pulvinar sapien, nec
 			tempus nunc egestas quis. Quisque finibus at lectus sit amet gravida.</p>
-	</div>
+	</section>
+
+		<h3>This is a drap and drop pic.</h3>
+		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<img src="headshot.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="200" height="200">
+		</div>
+
+		<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+
+
+
 
 		<p class="p4">Vivamus luctus nisi consequat leo gravida, in vehicula libero feugiat. Duis arcu ligula, convallis vitae ex
 			sed, pulvinar accumsan sapien. Etiam facilisis diam nec nulla dapibus sollicitudin. Vestibulum at libero eu
