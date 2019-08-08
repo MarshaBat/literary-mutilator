@@ -9,5 +9,10 @@ function changeFont() {
 
 }
 
+var x = 0;
+function scroll() {
+	document.getElementById("box").innerHTML = x += 1;
+}
+
 
 //};

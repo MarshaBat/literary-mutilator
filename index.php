@@ -4,6 +4,14 @@
 		<meta charset="utf-8">
 		<title>Literary-Mutilator (Javascript Challenge)</title>
 		<script src="script.js"></script>
+		<style>
+			div {
+				border: 1px solid black;
+				width: 200px;
+				height: 100px;
+				overflow: scroll;
+			}
+		</style>
 
 		<!-- Assignment at this link: https://bootcamp-coders.cnm.edu/class-materials/javascript/events/assignment.php -->
 
@@ -18,14 +26,27 @@
 			ullamcorper quam dictum at.</p>
 		<button type="button" onclick="changeColor()">Set text color</button>
 
-		<p class="p2" id="font">Fusce luctus scelerisque nulla in gravida. Pellentesque eget eros at nibh mattis faucibus. Nulla facilisi.
+		<p class="p2" id="font"><mark>Fusce luctus scelerisque nulla in gravida.</mark> Pellentesque eget eros at nibh mattis faucibus. Nulla facilisi.
 			Vivamus auctor pretium nisi ac lacinia. In hac habitasse platea dictumst. Quisque vitae mattis tortor. Morbi in
 			ullamcorper ante. Aenean tincidunt congue mattis. Nam a luctus mi, in placerat dolor. Maecenas lacinia est eu
 			est mollis convallis. Mauris mi risus, tincidunt eget odio eu, sagittis luctus est.</p>
-		<button type="button" onclick="changeFont()">Set font</button>
+		<button type="button" onclick="changeFont()">Set font color</button>
 
-
+	<div onscroll="scroll()" id="box">
 		<p class="p3">Vivamus luctus nisi consequat leo gravida, in vehicula libero feugiat. Duis arcu ligula, convallis vitae ex
+			sed, pulvinar accumsan sapien. Etiam facilisis diam nec nulla dapibus sollicitudin. Vestibulum at libero eu
+			nisl aliquam lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+			Maecenas a tincidunt augue. Pellentesque euismod consequat orci et lobortis. Sed aliquet pulvinar sapien, nec
+			tempus nunc egestas quis. Quisque finibus at lectus sit amet gravida.</p>
+	</div>
+
+		<p class="p4">Vivamus luctus nisi consequat leo gravida, in vehicula libero feugiat. Duis arcu ligula, convallis vitae ex
+			sed, pulvinar accumsan sapien. Etiam facilisis diam nec nulla dapibus sollicitudin. Vestibulum at libero eu
+			nisl aliquam lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+			Maecenas a tincidunt augue. Pellentesque euismod consequat orci et lobortis. Sed aliquet pulvinar sapien, nec
+			tempus nunc egestas quis. Quisque finibus at lectus sit amet gravida.</p>
+
+		<p class="p5">Vivamus luctus nisi consequat leo gravida, in vehicula libero feugiat. Duis arcu ligula, convallis vitae ex
 			sed, pulvinar accumsan sapien. Etiam facilisis diam nec nulla dapibus sollicitudin. Vestibulum at libero eu
 			nisl aliquam lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 			Maecenas a tincidunt augue. Pellentesque euismod consequat orci et lobortis. Sed aliquet pulvinar sapien, nec
