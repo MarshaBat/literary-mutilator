@@ -8,11 +8,6 @@ function changeFont() {
 	document.getElementById("font").style.fontFamily = "Arial Black";
 }
 
-var x = 0;
-function scroll() {
-	document.getElementById("box").innerHTML = x += 1;
-}
-
 //This is the drag and drop image section
 function allowDrop(ev) {
 	ev.preventDefault();
@@ -26,4 +21,11 @@ function drop(ev) {
 	ev.preventDefault();
 	var data = ev.dataTransfer.getData("text");
 	ev.target.appendChild(document.getElementById(data));
+}
+
+//This is a scroll
+
+var x = 0;
+function scroll() {
+	document.getElementById("box").innerHTML = x += 1;
 }
