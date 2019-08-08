@@ -53,14 +53,13 @@ textarea {
 	vertical-align: top;
 
 	/* To give enough room to type some text */
-	height: 10em;
+	height: 5em;
 }
 
 .button {
-	/* To position the buttons to the same position of the text fields */
-	padding-left: 150px; /* same size as the label elements */
+	padding-left: 100px;
 }
 
 button {
-	margin-left: .3em;
+	margin: auto;
 }
