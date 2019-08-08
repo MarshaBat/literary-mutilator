@@ -7,7 +7,7 @@
 		<style>
 			div {
 				border: 1px solid black;
-				width: 200px;
+				width: 500px;
 				height: 100px;
 				overflow: scroll;
 			}
@@ -18,7 +18,7 @@
 	</head>
 	<body>
 		<h2>Lorem Ipsum</h2>
-		<p class="p1" id="color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sapien condimentum, condimentum magna at,
+		<p class="p1" id="color"><mark>Lorem</mark> ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sapien condimentum, condimentum magna at,
 			aliquam dolor. Cras consectetur nec sem quis pulvinar. Etiam bibendum dapibus lectus, accumsan dignissim arcu
 			aliquet ac. In hac habitasse platea dictumst. Sed scelerisque magna orci, eget suscipit nunc bibendum ut.
 			Vivamus eu eros fringilla, suscipit lorem at, venenatis sapien. Fusce at volutpat magna. Curabitur elementum
@@ -26,10 +26,10 @@
 			ullamcorper quam dictum at.</p>
 		<button type="button" onclick="changeColor()">Set text color</button>
 
-		<p class="p2" id="font"><mark>Fusce luctus scelerisque nulla in gravida.</mark> Pellentesque eget eros at nibh mattis faucibus. Nulla facilisi.
+		<p class="p2" id="font"><mark>Fusce luctus scelerisque nulla in gravida. Pellentesque eget eros at nibh mattis faucibus. Nulla facilisi.
 			Vivamus auctor pretium nisi ac lacinia. In hac habitasse platea dictumst. Quisque vitae mattis tortor. Morbi in
 			ullamcorper ante. Aenean tincidunt congue mattis. Nam a luctus mi, in placerat dolor. Maecenas lacinia est eu
-			est mollis convallis. Mauris mi risus, tincidunt eget odio eu, sagittis luctus est.</p>
+			est mollis convallis. Mauris mi risus, tincidunt eget odio eu, sagittis luctus est.</p></mark>
 		<button type="button" onclick="changeFont()">Set font color</button>
 
 	<div onscroll="scroll()" id="box">
